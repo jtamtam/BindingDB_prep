@@ -21,7 +21,6 @@ The identity BLAST between the target and the protein is necessarily 100%
 ## Tanimoto.py
 This file processes the results from Read_BLAST.py and compares the drugs SMILE with the ligands of the proteins in the PDB. It uses the Tanimoto calculation to assess a similarity coefficient.
 It produces 9 final dataframes:
-
 * train_ic50_final.csv
 * test_ic50_final.csv
 * valid_ic50_final.csv
