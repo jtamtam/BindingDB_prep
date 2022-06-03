@@ -48,3 +48,15 @@ Each of this dataframe has the following columns:
 (takes approx. 3 hours)
 
 ## Structures.py
+This files downloads the relevant proteins based  on the conditions of the flowchart. Here is the folder hierarchy:
+*  Final_Data_Structures
+  * train_kd_structures
+    * 100% sfaa
+  * test_kd_structures
+  * valid_kd_structures
+  * train_ic50_structures
+  * test_ic50_structures
+  * valid_ic50_structures
+  * train_ki_structures
+  * test_ki_structures
+  * valid_ki_structures
