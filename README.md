@@ -13,7 +13,7 @@ This file executes a BLAST of the 9 files from the BindingDB (without_duplicates
 
 ## Read_BLAST.py
 This file processes the results of the BLAST and produces 9 dataframes with the following columns:
-(Index) | Drug_ID | Drug | Target_ID | Target | Y (ic50 or Kd or Ki) | Coverage | protein_id | protein_id_short |
+(Index) | Drug_ID | Drug | Target_ID | Target | Y (ic50/Kd/Ki) | Coverage | protein_id | protein_id_short |
 ------- | ------- | ---- | --------- | ------ | -------------------- | -------- | ---------- | ---------------- |
 
 The identity BLAST between the target and the protein is necessarily 100%
