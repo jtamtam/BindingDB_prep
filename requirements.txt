@@ -1,0 +1,17 @@
+
+biopandas==0.3.0
+biopython==1.75
+bioservices==1.8.4
+numpy==1.22.3
+pandas==1.4.2
+PyTDC==0.3.6
+rdkit-pypi==2022.3.2.1
+requests==2.27.1
+requests-cache==0.9.3
+ssbio==0.9.9.8.post1
+tqdm==4.64.0
+url-normalize==1.4.3
+urllib3==1.26.9
+wget==3.2
+widgetsnbextension==3.0.8
+zipp==3.8.0
