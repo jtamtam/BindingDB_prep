@@ -1,5 +1,7 @@
 # BindingDB_Preprocessing
 
+<img width="526" alt="image" src="https://user-images.githubusercontent.com/95087658/171919481-de060115-901a-4938-8f92-56dba0517087.png">
+
 ## Advice
 To run the different files I suggest the creation of a local environment and you will need to install ncbi-blast-2.13.0+.
 The blastp exec and the makeblastdb exec must be in the /bin of the local environment. 
