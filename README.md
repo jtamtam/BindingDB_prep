@@ -1,4 +1,5 @@
 # BindingDB_Preprocessing
+Flowchart of the tasks:
 
 <img width="526" alt="image" src="https://user-images.githubusercontent.com/95087658/171919481-de060115-901a-4938-8f92-56dba0517087.png">
 
