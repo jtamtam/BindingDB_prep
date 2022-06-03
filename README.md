@@ -15,7 +15,23 @@ This file executes a BLAST of the 9 files from the BindingDB (without_duplicates
 This file processes the results of the BLAST and produces 9 dataframes with the following columns:
 (Index) | Drug_ID | Drug | Target_ID | Target | Y (ic50 or Kd or Ki) | Coverage | protein_id | protein_id_short |
 ------- | ------- | ---- | --------- | ------ | -------------------- | -------- | ---------- | ---------------- |
+The identity BLAST between the target and the protein is necessarily 100%
 
 ## Tanimoto.py
+This file processes the results from Read_BLAST.py and compares the drugs SMILE with the ligands of the proteins in the PDB. It uses the Tanimoto calculation to assess a similarity coefficient.
+It produces 9 final dataframes:
+Markup : * train_ic50_final.csv
+         * test_ic50_final.csv
+         * valid_ic50_final.csv
+         * train_kd_final.csv
+         * test_kd_final.csv
+         * valid_kd_final.csv
+         * train_ki_final.csv
+         * test_ki_final.csv
+         * valid_ki_final.csv
+Each of this dataframe has the following columns:
+(Index)|Drug_ID|Drug|Target_ID|Target|Y (ic50 or Kd or Ki)|Coverage|protein_id|protein_id_short|Ligand_Similarity|Ligand_ID|Ligand_Formula|
+-------|-------|----|---------|------|--------------------|--------|----------|----------------|-----------------|---------|--------------|
+
 
 ## Structures.py
