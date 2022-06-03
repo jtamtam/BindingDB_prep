@@ -50,8 +50,8 @@ Each of this dataframe has the following columns:
 ## Structures.py
 This files downloads the relevant proteins based  on the conditions of the flowchart. Here is the folder hierarchy:
 *  Final_Data_Structures
-  * train_kd_structures
-    * 100% sfaa
+         * train_kd_structures
+                  * 100% sfaa
   * test_kd_structures
   * valid_kd_structures
   * train_ic50_structures
