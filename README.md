@@ -13,7 +13,8 @@ This file executes a BLAST of the 9 files from the BindingDB (without_duplicates
 
 ## Read_BLAST.py
 This file processes the results of the BLAST and produces 9 dataframes with the following columns:
-| sdfads | #1 | #2 |
+First Header  | Second Header
+------------- | -------------
 
 ## Tanimoto.py
 
