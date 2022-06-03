@@ -13,8 +13,8 @@ This file executes a BLAST of the 9 files from the BindingDB (without_duplicates
 
 ## Read_BLAST.py
 This file processes the results of the BLAST and produces 9 dataframes with the following columns:
-(Index) | Drug_ID | Drug | Target_ID | Target | Y (ic50/Kd/Ki) | Coverage | protein_id | protein_id_short |
-------- | ------- | ---- | --------- | ------ | -------------------- | -------- | ---------- | ---------------- |
+(Index) | Drug_ID | Drug | Target_ID | Target | Y(ic50/Kd/Ki) | Coverage | protein_id | protein_id_short |
+------- | ------- | ---- | --------- | ------ | ------------- | -------- | ---------- | ---------------- |
 
 The identity BLAST between the target and the protein is necessarily 100%
 
@@ -32,8 +32,8 @@ It produces 9 final dataframes:
 * valid_ki_final.csv
          
 Each of this dataframe has the following columns:
-(Index)|Drug_ID|Drug|Target_ID|Target|Y|Coverage|protein_id|protein_id_short|Ligand_Similarity|Ligand_ID|Ligand_Formula|
--------|-------|----|---------|------|-|--------|----------|----------------|-----------------|---------|--------------|
+(Index)|Drug_ID|Drug|Target_ID|Target|Y(ic50/Kd/Ki)|Coverage|protein_id|protein_id_short|Ligand_Similarity|Ligand_ID|Ligand_Formula|
+-------|-------|----|---------|------|-------------|--------|----------|----------------|-----------------|---------|--------------|
 
 
 ## Structures.py
