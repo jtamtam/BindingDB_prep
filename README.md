@@ -50,14 +50,48 @@ Each of this dataframe has the following columns:
 ## Structures.py
 This files downloads the relevant proteins based  on the conditions of the flowchart. Here is the folder hierarchy in the Final_Data_Structures folder created:
 * train_kd_structures
-  * sf
+  * coverage of 1
+  * coverage > 0.8 and ligand similarity > 0.7
+  * coverage > 0.8
+  * coverage < 0.8 and ligand similarity  > 0.7
 * test_kd_structures
-  * lk
+  * coverage of 1
+  * coverage > 0.8 and ligand similarity > 0.7
+  * coverage > 0.8
+  * coverage < 0.8 and ligand similarity  > 0.7
 * valid_kd_structures
+  * coverage of 1
+  * coverage > 0.8 and ligand similarity > 0.7
+  * coverage > 0.8
+  * coverage < 0.8 and ligand similarity  > 0.7
 * train_ic50_structures
+  * coverage of 1
+  * coverage > 0.8 and ligand similarity > 0.7
+  * coverage > 0.8
+  * coverage < 0.8 and ligand similarity  > 0.7
 * test_ic50_structures
+  * coverage of 1
+  * coverage > 0.8 and ligand similarity > 0.7
+  * coverage > 0.8
+  * coverage < 0.8 and ligand similarity  > 0.7
 * valid_ic50_structures
+  * coverage of 1
+  * coverage > 0.8 and ligand similarity > 0.7
+  * coverage > 0.8
+  * coverage < 0.8 and ligand similarity  > 0.7
 * train_ki_structures
+  * coverage of 1
+  * coverage > 0.8 and ligand similarity > 0.7
+  * coverage > 0.8
+  * coverage < 0.8 and ligand similarity  > 0.7
 * test_ki_structures
+  * coverage of 1
+  * coverage > 0.8 and ligand similarity > 0.7
+  * coverage > 0.8
+  * coverage < 0.8 and ligand similarity  > 0.7
 * valid_ki_structures
+  * coverage of 1
+  * coverage > 0.8 and ligand similarity > 0.7
+  * coverage > 0.8
+  * coverage < 0.8 and ligand similarity  > 0.7
 
