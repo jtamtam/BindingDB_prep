@@ -48,7 +48,8 @@ Each of this dataframe has the following columns:
 (takes approx. 3 hours)
 
 ## Structures.py
-This files downloads the relevant proteins based  on the conditions of the flowchart. Here is the folder hierarchy in the Final_Data_Structures folder created with each folder containing the structure of the relevant proteins:
+This files downloads the relevant proteins based  on the conditions of the flowchart. Here is the folder hierarchy in the Final_Data_Structures folder created in this programm.
+Each folder contains the structures of the relevant proteins:
 * train_kd_structures
   * coverage of 1
   * coverage > 0.8 and ligand similarity > 0.7
