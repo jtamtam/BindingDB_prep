@@ -10,6 +10,7 @@ It produces FASTA files. The 9 files(without_duplicates) from the BindingDB data
 
 ## BLAST.py
 This file executes a BLAST of the 9 files from the BindingDB (without_duplicates) against the pdb FASTA and vice-versa. The 18 resulting files are stored in "BindingDB_Preprocessing/Fasta_files/BLAST_Output"
+(takes approx. 15 hours)
 
 ## Read_BLAST.py
 This file processes the results of the BLAST and produces 9 dataframes with the following columns:
@@ -35,5 +36,6 @@ Each of this dataframe has the following columns:
 (Index)|Drug_ID|Drug|Target_ID|Target|Y(ic50/Kd/Ki)|Coverage|protein_id|protein_id_short|Ligand_Similarity|Ligand_ID|Ligand_Formula|
 -------|-------|----|---------|------|-------------|--------|----------|----------------|-----------------|---------|--------------|
 
+(takes approx. 3 hours)
 
 ## Structures.py
