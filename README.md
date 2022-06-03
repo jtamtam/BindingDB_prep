@@ -33,7 +33,7 @@ It produces 9 final dataframes:
          
 Each of this dataframe has the following columns:
 (Index)|Drug_ID|Drug|Target_ID|Target|Y|Coverage|protein_id|protein_id_short|Ligand_Similarity|Ligand_ID|Ligand_Formula|
--------|-------|----|---------|------|--------------------|--------|----------|----------------|-----------------|---------|--------------|
+-------|-------|----|---------|------|-|--------|----------|----------------|-----------------|---------|--------------|
 
 
 ## Structures.py
